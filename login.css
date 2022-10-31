@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    font-family: 'Playfair Display', serif;
+}
+h3{
+    font-size: x-large;
+}
+
+.contenedor{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 450px;
+    color:  rgb(37, 155, 135);
+    text-align: center;
+    cursor: pointer;
+}
+
+.botones{
+    display: flex;
+    align-self: flex-start;
+    gap: 10px;
+}
+
+.google-btn{
+    background-color:  #1A73E8;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.google-btn:hover{
+    opacity: 0.7;
+}
+
+.google-btn picture{
+    width: 35px;
+    height: 36px;
+    background-color: #F5F5F5;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-btn picture img{
+    width: 95%;
+}
+
+.google-btn span{
+   color: white;
+   padding: 10px;
+   font-weight: 400;
+}
+
+.twitter-btn {
+    color: blue;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 3px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.twitter-btn:hover{
+    opacity: 0.7;
+}
+
+.separador{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separador hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 2px solid lightgray;
+    background-color:  rgb(37, 155, 135);
+}
+
+.separador span{
+    color: rgb(63, 61, 61);
+}
+
+.inputs{
+    display: flex ;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    gap: 20px;
+}
+
+label span{
+    font-weight: 600;
+    color: rgb(37, 155, 135);
+}
+
+
+
+label input{
+    width: 100%;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+label input:hover{
+    background-color: white;
+    border: 2px solid #F5F5F5;
+    box-shadow: 0px 0px 7px rgb(37, 155, 135);
+}
+
+label input:focus{
+    background-color: white;
+    border: 2px solid #F5F5F5;
+    box-shadow: 0px 0px 7px rgb(37, 155, 135);
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.box input[type="checkbox"]{
+    width: 20px;
+}
+
+.box span{
+    font-size: 10pt;
+}
+
+.submit{
+    background-color:  rgb(37, 155, 135);
+    border: none;
+    border-radius: 5px ;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: white;
+    border: 2px solid rgb(37, 155, 135);;
+    color: rgb(37, 155, 135);
+    box-shadow: 0px 0px 10px rgb(37, 155, 135);
+    text-align: center;
+    padding: 10px 5px;
+}
